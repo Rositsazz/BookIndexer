@@ -6,9 +6,9 @@ Java project with the purpose to generate an index table in an output file.
 The file must always start with the string "INDEX"
 The next n lines contain the locations of each of the n keywords, sorted alphabetically:
 
-    Each line must start with the keyword itself, followed by a comma and a space
-    The indexes of the words follow. If a word is found several times, display them all separated by commas. If a word is found on consequent pages display the range of pages with a dash as in 150-152 instead of 150, 151, 152.
-    The indexer is case-insenstive - consider "Hello" and "hello" are the same word.
+* Each line must start with the keyword itself, followed by a comma and a space
+* The indexes of the words follow. If a word is found several times, display them all separated by commas. If a word is found on consequent pages display the range of pages with a dash as in 150-152 instead of 150, 151, 152.
+* The indexer is case-insenstive - consider "Hello" and "hello" are the same word.
     
 Here's an example:
 
